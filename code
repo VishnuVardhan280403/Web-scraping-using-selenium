@@ -20,8 +20,8 @@ time.sleep(3)
 # Replace 'your_username' and 'your_password' with your LinkedIn credentials
 username = driver.find_element(By.ID, 'username')
 password = driver.find_element(By.ID, 'password')
-username.send_keys('vishnuvardhan280404@gmail.com')
-password.send_keys('vishnu@plus1')
+username.send_keys('your_username')
+password.send_keys('your_password')
 driver.find_element(By.XPATH, '//*[@type="submit"]').click()
 time.sleep(5)
 
